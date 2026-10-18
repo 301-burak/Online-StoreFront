@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Sunday Ceramic Mug",
+    "category": "For slow mornings",
+    "description": "A hand-finished mug for your first (or second) cup.",
+    "price": 24,
+    "emoji": "☕",
+    "color": "peach",
+    "badge": "Bestseller"
+  },
+  {
+    "id": 2,
+    "name": "Little Moments Journal",
+    "category": "For your thoughts",
+    "description": "A little space to save the big and small things.",
+    "price": 18,
+    "emoji": "📔",
+    "color": "lavender",
+    "badge": ""
+  },
+  {
+    "id": 3,
+    "name": "Cloud Nine Candle",
+    "category": "For cozy corners",
+    "description": "Soft cedar and a little bit of main-character energy.",
+    "price": 32,
+    "emoji": "🕯️",
+    "color": "butter",
+    "badge": "Fan favorite"
+  },
+  {
+    "id": 4,
+    "name": "Pocket Picnic Tote",
+    "category": "For getting out there",
+    "description": "Room for snacks, books, and spontaneous detours.",
+    "price": 28,
+    "emoji": "👜",
+    "color": "mint",
+    "badge": ""
+  },
+  {
+    "id": 5,
+    "name": "Petal Glass Vase",
+    "category": "For little lovely things",
+    "description": "A cheerful home for whatever’s blooming.",
+    "price": 36,
+    "emoji": "🏺",
+    "color": "pink",
+    "badge": ""
+  },
+  {
+    "id": 6,
+    "name": "Good Day Socks",
+    "category": "For happy feet",
+    "description": "Ridiculously soft socks with a sunny disposition.",
+    "price": 16,
+    "emoji": "🧦",
+    "color": "blue",
+    "badge": "Under $20"
+  },
+  {
+    "id": 7,
+    "name": "Tiny Treat Tray",
+    "category": "For your everyday rituals",
+    "description": "A happy landing spot for rings, keys, and tiny treasures.",
+    "price": 22,
+    "emoji": "🍊",
+    "color": "lilac",
+    "badge": ""
+  },
+  {
+    "id": 8,
+    "name": "Weekend Market Bag",
+    "category": "For the little adventures",
+    "description": "Your trusty sidekick for the market and beyond.",
+    "price": 30,
+    "emoji": "🧺",
+    "color": "green",
+    "badge": ""
+  }
+]
