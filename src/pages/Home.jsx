@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import ProductCard from '../components/ProductCard.jsx'
+import ProductGridErrorBoundary from '../components/ProductGridErrorBoundary.jsx'
 import products from '../data/catalog.json'
 
 function Home({ onAddToCart }) {
@@ -44,15 +45,17 @@ function Home({ onAddToCart }) {
           </Link>
         </div>
 
-        <div className="product-grid">
-          {products.map((product) => (
-            <ProductCard
-              key={product.id}
-              product={product}
-              onAddToCart={onAddToCart}
-            />
-          ))}
-        </div>
+        <ProductGridErrorBoundary>
+          <div className="product-grid">
+            {products.map((product) => (
+              <ProductCard
+                key={product.id}
+                product={product}
+                onAddToCart={onAddToCart}
+              />
+            ))}
+          </div>
+        </ProductGridErrorBoundary>
       </section>
 
       <section className="promise-banner">

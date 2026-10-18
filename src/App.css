@@ -382,6 +382,25 @@
   gap: 34px 22px;
 }
 
+.product-grid-error {
+  padding: 28px;
+  border: 1px solid var(--line);
+  background: #fbfaf7;
+}
+
+.product-grid-error h3 {
+  margin: 0 0 8px;
+  font-family: var(--display);
+  font-size: 16px;
+}
+
+.product-grid-error p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 .product-card {
   min-width: 0;
 }
