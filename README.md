@@ -16,7 +16,13 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite (usually `http://localhost:5173`) in your browser. To make a production build, run `npm run build`; to preview that build, run `npm run preview`.
+Open the local URL printed by Vite (usually `http://localhost:5173/Online-StoreFront/`) in your browser. To make a production build, run `npm run build`; to preview that build, run `npm run preview`.
+
+## Deploy to GitHub Pages
+
+Push a commit to the `main` branch to run the GitHub Actions workflow in `.github/workflows/deploy.yml`. It installs dependencies with `npm ci`, builds the site, and deploys the `dist` folder using GitHub's official Pages Actions.
+
+The Vite base path is configured for this repository. After the first successful workflow run, the storefront is available at [https://301-burak.github.io/Online-StoreFront/](https://301-burak.github.io/Online-StoreFront/). If Pages has not been enabled for the repository yet, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source.
 
 ## Try the storefront
 
